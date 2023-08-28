@@ -1,0 +1,64 @@
+h1 {
+  text-align: center;
+  margin-top: 64px;
+  text-shadow: 1px 1px 1px dimgray;
+}
+body {
+  font-family: roboto;
+
+    background-image: url("header.jpg");
+    margin-top: px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 1px 1px 1px dimgray;
+}
+
+h1:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-out;
+
+}
+
+.center-container {
+    text-align: center;
+}
+
+
+
+hr{
+  position: fixed
+	border: none;
+  align-content: center;
+    border-top: 4px solid #000;
+    width: 10%;
+    margin: 0 auto; 
+    position: fixed;
+    bottom: 260px;
+    left: 140px;
+    right: 140px;
+
+
+}
+
+.buffer {
+  height: 100px
+}
+
+.btn {
+    padding: 30px 20px;
+    font-size: 24px;
+    width: 240px;
+    text-transform: uppercase;
+    margin-top: 128px;
+    border-radius: 100px;
+}
+.btn:hover{
+border-width: 4px
+border-color: dimgray;
+background-color: dimgray;
+}
